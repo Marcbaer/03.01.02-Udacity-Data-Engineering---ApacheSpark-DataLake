@@ -9,9 +9,9 @@ The design is used to optimize for analytical queries and allows to efficiently 
 ## Project Files
 The files in the repository are used as described below:
 
-* dl.cfg : Configuration file used to access the AWS S3 Bucket.
-* etl.py : ETL Script that is used to load and transform the data into the required format. It saves the resulting parquet files into the specified S3 bucket.
-* requirements.txt: Lists the environment requirements.
+* **[dl.cfg](dl.cfg)**: Configuration file used to access the AWS S3 Bucket.
+* **[etl.py](etl.py)**: ETL Script that is used to load and transform the data into the required format. It saves the resulting parquet files into the specified S3 bucket.
+* **[requirements.txt](requirements.txt)**: Lists the environment requirements.
 
 ## Final Database Schema Design:
 
